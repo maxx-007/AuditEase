@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7b2ff7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f107a3;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Shield outline -->
+  <path d="M100 20 L160 50 L160 110 Q160 150 100 180 Q40 150 40 110 L40 50 Z" 
+        fill="none" 
+        stroke="url(#logoGradient)" 
+        stroke-width="4" 
+        filter="url(#glow)"/>
+  
+  <!-- Inner shield -->
+  <path d="M100 40 L145 60 L145 105 Q145 135 100 160 Q55 135 55 105 L55 60 Z" 
+        fill="url(#logoGradient)" 
+        opacity="0.2"/>
+  
+  <!-- Check mark -->
+  <path d="M75 100 L90 115 L125 75" 
+        stroke="url(#logoGradient)" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"
+        filter="url(#glow)"/>
+  
+  <!-- Circuit lines -->
+  <circle cx="100" cy="100" r="3" fill="url(#logoGradient)" filter="url(#glow)"/>
+  <line x1="100" y1="100" x2="120" y2="80" stroke="url(#logoGradient)" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="120" cy="80" r="2" fill="url(#logoGradient)"/>
+  <line x1="100" y1="100" x2="80" y2="80" stroke="url(#logoGradient)" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="80" cy="80" r="2" fill="url(#logoGradient)"/>
+</svg>
