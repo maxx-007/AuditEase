@@ -1,0 +1,43 @@
+2025-11-05 08:13:36 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 10 rules for CIS
+2025-11-05 08:13:36 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 15 rules for ISO27001
+2025-11-05 08:13:36 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 10 rules for RBI
+2025-11-05 08:15:00 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 10 rules for CIS
+2025-11-05 08:15:00 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 15 rules for ISO27001
+2025-11-05 08:15:00 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 10 rules for RBI
+2025-11-05 08:15:31 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 10 rules for CIS
+2025-11-05 08:15:31 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 15 rules for ISO27001
+2025-11-05 08:15:31 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 10 rules for RBI
+2025-11-05 08:15:40 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 10 rules for CIS
+2025-11-05 08:15:40 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 15 rules for ISO27001
+2025-11-05 08:15:40 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 10 rules for RBI
+2025-11-05 08:18:39 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 53 rules for CIS
+2025-11-05 08:18:39 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 60 rules for ISO27001
+2025-11-05 08:18:39 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 59 rules for RBI
+2025-11-05 08:19:54 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 53 rules for CIS
+2025-11-05 08:19:54 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 60 rules for ISO27001
+2025-11-05 08:19:54 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 59 rules for RBI
+2025-11-05 12:55:08 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 53 rules for CIS
+2025-11-05 12:55:08 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 60 rules for ISO27001
+2025-11-05 12:55:08 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 59 rules for RBI
+2025-11-05 12:55:57 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 53 rules for CIS
+2025-11-05 12:55:57 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 60 rules for ISO27001
+2025-11-05 12:55:57 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 59 rules for RBI
+2025-11-05 12:58:04 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 53 rules for CIS
+2025-11-05 12:58:04 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 60 rules for ISO27001
+2025-11-05 12:58:04 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 59 rules for RBI
+2025-11-05 13:04:55 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 53 rules for CIS
+2025-11-05 13:04:55 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 60 rules for ISO27001
+2025-11-05 13:04:55 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 59 rules for RBI
+2025-11-05 13:17:57 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 53 rules for CIS
+2025-11-05 13:17:57 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 60 rules for ISO27001
+2025-11-05 13:17:57 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 59 rules for RBI
+2025-11-05 13:21:44 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 53 rules for CIS
+2025-11-05 13:21:44 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 60 rules for ISO27001
+2025-11-05 13:21:44 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 59 rules for RBI
+2025-11-05 13:21:44 - audit_service - INFO - audit_compliance:197 - 🔍 Starting audit for Collected System
+2025-11-05 13:21:44 - audit_service - INFO - audit_compliance:215 -   📋 Auditing ISO27001...
+2025-11-05 13:21:44 - audit_service - INFO - audit_compliance:232 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-05 13:21:44 - audit_service - INFO - audit_compliance:215 -   📋 Auditing RBI...
+2025-11-05 13:21:44 - audit_service - INFO - audit_compliance:232 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-05 13:21:44 - audit_service - INFO - audit_compliance:215 -   📋 Auditing CIS...
+2025-11-05 13:21:44 - audit_service - INFO - audit_compliance:232 -     ✓ CIS: 3.6% (2/53 passed)

@@ -1,0 +1,11 @@
+2025-11-05 08:13:36 - validator - INFO - validate_training_dataset:350 - Dataset validation: 1/1 records valid (Quality: 100.0)
+2025-11-05 08:15:00 - validator - INFO - validate_training_dataset:350 - Dataset validation: 1/1 records valid (Quality: 100.0)
+2025-11-05 08:15:31 - validator - INFO - validate_training_dataset:350 - Dataset validation: 0/1 records valid (Quality: 90.0)
+2025-11-05 08:15:40 - validator - INFO - validate_training_dataset:350 - Dataset validation: 0/1 records valid (Quality: 90.0)
+2025-11-05 08:18:39 - validator - INFO - validate_training_dataset:350 - Dataset validation: 0/1 records valid (Quality: 90.0)
+2025-11-05 08:19:54 - validator - INFO - validate_training_dataset:350 - Dataset validation: 0/1 records valid (Quality: 90.0)
+2025-11-05 12:55:08 - validator - INFO - validate_training_dataset:368 - Dataset validation: 3/3 records valid (Quality: 100.0)
+2025-11-05 12:59:42 - validator - ERROR - validate_compliance_record:294 - ✗ Validation failed for Collected System. Errors: 1
+2025-11-05 13:06:24 - validator - ERROR - validate_compliance_record:294 - ✗ Validation failed for Collected System. Errors: 1
+2025-11-05 13:19:26 - validator - INFO - validate_compliance_record:104 - ✓ Validation passed for Collected System (Quality score: 95.0)
+2025-11-05 13:21:44 - validator - INFO - validate_compliance_record:104 - ✓ Validation passed for Collected System (Quality score: 95.0)

@@ -1,0 +1,28 @@
+{
+  "models": {
+    "20251105_125508": {
+      "path": "models\\compliance_model_RandomForest.joblib",
+      "metadata": {
+        "algorithm": "RandomForest",
+        "dataset": "data\\synthetic\\combined_training_dataset.json",
+        "n_samples": 3,
+        "n_features": 42,
+        "metrics": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        },
+        "cv_mean": 1.0,
+        "cv_std": 0.0,
+        "classes": [
+          "Compliant",
+          "Non-Compliant"
+        ]
+      },
+      "registered_at": "2025-11-05T12:55:08.889355"
+    }
+  },
+  "active_model": "20251105_125508",
+  "version_counter": 0
+}

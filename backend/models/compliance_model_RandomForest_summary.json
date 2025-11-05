@@ -1,0 +1,47 @@
+{
+  "model_name": "compliance_model_RandomForest",
+  "model_type": "rf",
+  "n_features": 121,
+  "metrics": {
+    "accuracy": 1.0,
+    "test_size": 0,
+    "n_train": 1,
+    "n_test": 1,
+    "classes": [
+      "Non-Compliant"
+    ],
+    "model_type": "rf",
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_matrix": [
+      [
+        1
+      ]
+    ],
+    "classification_report": "               precision    recall  f1-score   support\n\nNon-Compliant       1.00      1.00      1.00         1\n\n     accuracy                           1.00         1\n    macro avg       1.00      1.00      1.00         1\n weighted avg       1.00      1.00      1.00         1\n",
+    "top_20_features": {
+      "compliance_score_orig": 0.0,
+      "sw_maintained": 0.0,
+      "sw_count": 0.0,
+      "hw_maintained": 0.0,
+      "hw_automated": 0.0,
+      "sam_deployed": 0.0,
+      "net_unauth_blocked": 0.0,
+      "net_devices_secure": 0.0,
+      "net_approved_only": 0.0,
+      "net_whitelist_enforced": 0.0,
+      "net_filtering": 0.0,
+      "net_port_mapping": 0.0,
+      "net_port_scanning": 0.0,
+      "net_access_control": 0.0,
+      "net_segmentation": 0.0,
+      "net_vlans": 0.0,
+      "net_dmz": 0.0,
+      "net_ids": 0.0,
+      "net_ips": 0.0,
+      "net_ddos": 0.0
+    }
+  },
+  "training_date": "2025-11-05T08:19:54.348423"
+}

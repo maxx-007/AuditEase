@@ -1,0 +1,2176 @@
+{
+  "metadata": {
+    "created_at": "2025-11-05T12:54:31.535101",
+    "total_records": 3,
+    "source_files": [
+      "data/synthetic/synthetic_json_dataset.json",
+      "data/synthetic/synthetic_json_dataset2.json",
+      "data/synthetic/synthetic_json_dataset3.json"
+    ],
+    "description": "Combined dataset from multiple sources"
+  },
+  "records": [
+    {
+      "company_name": "SecureMax Industries",
+      "company_type": "Financial Services",
+      "compliance_status": "Compliant",
+      "compliance_score": 100.0,
+      "evaluation_date": "2025-11-04",
+      "collection_timestamp": "2025-11-04T14:22:15.448200",
+      "system_info": {
+        "os_type": "Linux",
+        "os_version": "Ubuntu 22.04 LTS",
+        "hostname": "SECUREMAX-PRD-01",
+        "platform": "Linux-5.15.0-89-generic-x86_64",
+        "python_version": "3.11.6"
+      },
+      "software_inventory": {
+        "maintained": true,
+        "last_updated": "2025-11-04",
+        "count": 87
+      },
+      "unauthorized_software": {
+        "detected": false
+      },
+      "sam_tools": {
+        "deployed": true,
+        "tool_name": "Flexera Software Asset Manager"
+      },
+      "hardware_inventory": {
+        "maintained": true,
+        "automated": true
+      },
+      "network": {
+        "network": {
+          "unauthorized_devices": {
+            "blocked": true,
+            "nac_solution": "Cisco ISE"
+          },
+          "devices": {
+            "secure_configuration": true
+          },
+          "services": {
+            "approved_only": true,
+            "whitelist_maintained": true,
+            "whitelist_enforced": true
+          },
+          "perimeter": {
+            "filtering_configured": true,
+            "firewall_vendor": "Palo Alto Networks"
+          },
+          "port_mapping": {
+            "complete": true
+          },
+          "port_scanning": {
+            "automated": true,
+            "frequency": "weekly"
+          },
+          "access_control": {
+            "implemented": true
+          }
+        },
+        "network_security": {
+          "segmentation": {
+            "implemented": true,
+            "vlans_count": 12
+          },
+          "dmz": {
+            "implemented": true
+          },
+          "ids": {
+            "deployed": true,
+            "vendor": "Suricata"
+          },
+          "ips": {
+            "deployed": true,
+            "vendor": "Snort"
+          },
+          "ddos_protection": {
+            "enabled": true
+          }
+        }
+      },
+      "servers": {
+        "firewall": {
+          "enabled": true,
+          "centrally_managed": true,
+          "policy_enforced": true
+        }
+      },
+      "workstations": {
+        "firewall": {
+          "enabled": true,
+          "centrally_managed": true,
+          "policy_enforced": true
+        }
+      },
+      "antimalware": {
+        "deployed": true,
+        "vendor": "CrowdStrike Falcon",
+        "centrally_managed": true,
+        "auto_update": {
+          "enabled": true,
+          "last_update": "/Date(1730736000000)/"
+        },
+        "removable_media": {
+          "scanning": true
+        },
+        "logging": {
+          "centralized": true
+        },
+        "real_time_protection": true
+      },
+      "devices": {
+        "autorun": {
+          "disabled": true
+        }
+      },
+      "endpoints": {
+        "host_firewall": {
+          "enabled": true
+        }
+      },
+      "applications": {
+        "firewall": {
+          "deployed": true
+        }
+      },
+      "endpoint_security": {
+        "edr": {
+          "deployed": true,
+          "vendor": "CrowdStrike Falcon",
+          "features": [
+            "behavioral_detection",
+            "threat_hunting",
+            "automated_response",
+            "forensics"
+          ]
+        },
+        "encryption": {
+          "enabled": true,
+          "volumes_encrypted": 100,
+          "method": "BitLocker/LUKS"
+        },
+        "mdm": {
+          "deployed": true,
+          "vendor": "Microsoft Intune"
+        },
+        "usb_controls": {
+          "enabled": true,
+          "method": "Device Control Plus"
+        },
+        "application_whitelisting": {
+          "enabled": true,
+          "solution": "AppLocker"
+        }
+      },
+      "secure_configuration": {
+        "applied": true,
+        "baseline": "CIS Benchmarks Level 2",
+        "checks": [
+          "hardening",
+          "service_disable",
+          "account_policies",
+          "audit_policies"
+        ]
+      },
+      "anti_exploitation": {
+        "enabled": true,
+        "features": [
+          "DEP",
+          "ASLR",
+          "SEHOP",
+          "CFG",
+          "SMEP",
+          "SMAP"
+        ]
+      },
+      "deployment": {
+        "deployment": {
+          "secure_images": {
+            "maintained": true
+          },
+          "master_images": {
+            "isolated": true,
+            "storage_location": "Isolated VLAN - Secure Repository"
+          }
+        },
+        "configuration_management": {
+          "tools": {
+            "deployed": true,
+            "tool": "Ansible"
+          },
+          "monitoring": {
+            "automated": true,
+            "tool": "Puppet"
+          }
+        }
+      },
+      "vulnerability_management": {
+        "automated_scanning": {
+          "enabled": true,
+          "tool": "Tenable Nessus"
+        },
+        "authenticated_scanning": {
+          "enabled": true
+        },
+        "assessment_accounts": {
+          "protected": true
+        },
+        "assessment": {
+          "last_days": 5
+        },
+        "penetration_test": {
+          "last_days": 45
+        },
+        "critical_patching": {
+          "within_72_hours": true,
+          "average_days": 2
+        },
+        "scanning_tools": {
+          "deployed": true
+        },
+        "asset_inventory": {
+          "maintained": true
+        }
+      },
+      "patch_management": {
+        "automated_patching": {
+          "enabled": true,
+          "os": true,
+          "applications": true,
+          "last_check": "04 November 2025 13:00:00"
+        },
+        "software_patching": {
+          "enabled": true
+        }
+      },
+      "logging": {
+        "logging": {
+          "central_management": {
+            "enabled": true,
+            "platform": "Splunk Enterprise"
+          },
+          "audit": {
+            "enabled": true,
+            "categories": [
+              "System Integrity                        Success and Failure",
+              "Other System Events                     Success and Failure",
+              "Logon                                   Success and Failure",
+              "Network Policy Server                   Success and Failure",
+              "Plug and Play Events                    Success and Failure",
+              "Account Logon                           Success and Failure",
+              "Account Management                      Success and Failure",
+              "Directory Service Access                Success and Failure",
+              "Object Access                           Success and Failure",
+              "Policy Change                           Success and Failure",
+              "Privilege Use                           Success and Failure",
+              "Process Tracking                        Success and Failure"
+            ]
+          },
+          "detailed": {
+            "enabled": true
+          },
+          "storage": {
+            "adequate": true,
+            "retention_days": 365
+          },
+          "analysis": {
+            "central": true
+          },
+          "review": {
+            "regular": true,
+            "frequency": "continuous"
+          }
+        },
+        "siem": {
+          "deployed": true,
+          "vendor": "Splunk Enterprise",
+          "tuning": {
+            "regular": true
+          }
+        },
+        "security_monitoring": {
+          "soc": {
+            "operational": true,
+            "staffing": "24x7"
+          },
+          "siem": {
+            "deployed": true
+          },
+          "log_retention": {
+            "days": 365
+          },
+          "realtime": {
+            "enabled": true
+          },
+          "automated_response": {
+            "enabled": true
+          }
+        }
+      },
+      "browsers": {
+        "supported_only": true,
+        "versions": [
+          "Chrome 130.0.6723.116",
+          "Firefox 119.0.1"
+        ],
+        "plugins": {
+          "controlled": true,
+          "whitelist": [
+            "Adobe Acrobat",
+            "Microsoft Office"
+          ]
+        }
+      },
+      "email": {
+        "security_policies": {
+          "enforced": true
+        },
+        "file_blocking": {
+          "enabled": true,
+          "blocked_types": [
+            ".exe",
+            ".scr",
+            ".bat",
+            ".cmd",
+            ".com",
+            ".pif",
+            ".vbs",
+            ".js"
+          ]
+        }
+      },
+      "web_proxy": {
+        "url_logging": {
+          "enabled": true,
+          "retention_days": 365
+        }
+      },
+      "dns": {
+        "query_logging": {
+          "enabled": true
+        }
+      },
+      "command_line": {
+        "audit_logging": {
+          "enabled": true
+        }
+      },
+      "application_security": {
+        "sdlc": {
+          "implemented": true
+        },
+        "sast": {
+          "enabled": true
+        },
+        "dast": {
+          "enabled": true
+        },
+        "code_review": {
+          "mandatory": true
+        },
+        "waf": {
+          "deployed": true,
+          "vendor": "Cloudflare Enterprise WAF"
+        }
+      },
+      "backup": {
+        "backup": {
+          "automated": {
+            "enabled": true,
+            "frequency": "daily",
+            "solution": "Veeam Backup & Replication",
+            "last_backup": "2025-11-03T23:00:00"
+          },
+          "complete_system": {
+            "enabled": true
+          },
+          "testing": {
+            "regular": true,
+            "last_test_days": 15
+          },
+          "protection": {
+            "enabled": true,
+            "encryption": true
+          },
+          "offline": {
+            "available": true
+          }
+        },
+        "business_continuity": {
+          "plan": {
+            "exists": true
+          },
+          "disaster_recovery": {
+            "plan_exists": true
+          },
+          "testing": {
+            "last_days": 90
+          },
+          "rto": {
+            "defined": true
+          },
+          "rpo": {
+            "defined": true
+          }
+        }
+      },
+      "access_control": {
+        "access_control": {
+          "policy": {
+            "exists": true
+          },
+          "privileged_users": {
+            "privileged_users": true,
+            "customer_access": true
+          },
+          "customer_access": {
+            "privileged_users": true,
+            "customer_access": true
+          },
+          "pam_system": {
+            "deployed": true,
+            "vendor": "CyberArk"
+          },
+          "session_recording": {
+            "enabled": true
+          },
+          "rights_review": {
+            "last_days": 30
+          }
+        },
+        "users": {
+          "registration_process": {
+            "formal": true
+          },
+          "access_provisioning": {
+            "controlled": true
+          },
+          "privileged_access": {
+            "managed": true,
+            "admin_count": 5
+          },
+          "access_review": {
+            "regular": true
+          },
+          "access_removal": {
+            "timely": true
+          },
+          "authentication_responsibilities": {
+            "understood": true
+          }
+        },
+        "authentication": {
+          "secret_management": {
+            "secure": true
+          }
+        },
+        "systems": {
+          "access_restriction": {
+            "implemented": true
+          },
+          "secure_logon": {
+            "implemented": true
+          },
+          "password_management": {
+            "robust": true,
+            "min_length": 14,
+            "complexity": true,
+            "max_age": 90
+          },
+          "privileged_utilities": {
+            "controlled": true
+          }
+        },
+        "development": {
+          "source_code_access": {
+            "controlled": true
+          }
+        }
+      },
+      "cryptography": {
+        "cryptography": {
+          "policy": {
+            "exists": true
+          },
+          "key_management": {
+            "implemented": true,
+            "solution": "AWS KMS"
+          },
+          "tls_protocols": [
+            "TLSv1.3",
+            "TLSv1.2"
+          ]
+        },
+        "data_protection": {
+          "customer_data": {
+            "encrypted_at_rest": true,
+            "encrypted_in_transit": true
+          },
+          "database_monitoring": {
+            "enabled": true
+          },
+          "data_masking": {
+            "non_production": true
+          },
+          "retention_policy": {
+            "implemented": true
+          }
+        }
+      },
+      "physical": {
+        "physical": {
+          "security_perimeter": {
+            "defined": true
+          },
+          "entry_controls": {
+            "implemented": true
+          },
+          "environmental_protection": {
+            "implemented": true
+          },
+          "secure_areas": {
+            "procedures": true,
+            "access_controlled": true
+          },
+          "delivery_areas": {
+            "controlled": true
+          }
+        },
+        "equipment": {
+          "siting_protection": {
+            "implemented": true
+          },
+          "utilities": {
+            "protected": true
+          },
+          "cabling": {
+            "protected": true
+          },
+          "maintenance": {
+            "controlled": true
+          },
+          "removal": {
+            "authorized": true
+          },
+          "offsite": {
+            "protected": true
+          },
+          "disposal": {
+            "secure": true
+          },
+          "unattended": {
+            "protected": true
+          }
+        },
+        "workplace": {
+          "clear_desk_screen": {
+            "enforced": true
+          }
+        }
+      },
+      "operations": {
+        "operations": {
+          "procedures": {
+            "documented": true,
+            "location": "SharePoint - Operations Manual"
+          },
+          "change_management": {
+            "implemented": true
+          },
+          "capacity_management": {
+            "monitored": true
+          },
+          "environment_separation": {
+            "implemented": true,
+            "environments": [
+              "Development",
+              "Testing",
+              "Staging",
+              "Production"
+            ]
+          }
+        },
+        "governance": {
+          "board_approved_policy": {
+            "exists": true
+          },
+          "security_strategy": {
+            "documented": true
+          },
+          "ciso": {
+            "appointed": true
+          },
+          "security_committee": {
+            "established": true
+          }
+        },
+        "policies": {
+          "information_security": {
+            "exists": true,
+            "last_review_days": 120
+          }
+        },
+        "organization": {
+          "roles_responsibilities": {
+            "defined": true
+          },
+          "segregation_of_duties": {
+            "implemented": true
+          },
+          "authority_contacts": {
+            "maintained": true
+          },
+          "special_groups": {
+            "contact": true
+          }
+        },
+        "projects": {
+          "security_integration": {
+            "mandatory": true
+          }
+        },
+        "mobile_devices": {
+          "policy": {
+            "exists": true
+          }
+        },
+        "teleworking": {
+          "policy": {
+            "exists": true
+          }
+        }
+      },
+      "hr": {
+        "hr": {
+          "background_screening": {
+            "mandatory": true
+          },
+          "employment_terms": {
+            "security_clauses": true
+          },
+          "management": {
+            "security_responsibilities": true
+          },
+          "disciplinary_process": {
+            "defined": true
+          },
+          "termination": {
+            "security_procedures": true
+          }
+        },
+        "training": {
+          "security_awareness": {
+            "regular": true
+          },
+          "cybersecurity": {
+            "annual": true
+          },
+          "phishing_simulation": {
+            "regular": true
+          },
+          "awareness_metrics": {
+            "tracked": true
+          },
+          "role_based": {
+            "implemented": true
+          },
+          "culture_assessment": {
+            "conducted": true
+          }
+        }
+      },
+      "assets": {
+        "assets": {
+          "inventory": {
+            "maintained": true
+          },
+          "ownership": {
+            "assigned": true
+          },
+          "acceptable_use": {
+            "policy": true
+          },
+          "return_procedures": {
+            "defined": true
+          }
+        },
+        "information": {
+          "classification": {
+            "implemented": true
+          },
+          "labelling": {
+            "implemented": true
+          },
+          "handling_procedures": {
+            "defined": true
+          }
+        },
+        "media": {
+          "removable": {
+            "management_procedures": true
+          },
+          "disposal": {
+            "secure_procedures": true
+          },
+          "transfer": {
+            "protected": true
+          }
+        }
+      },
+      "plan": {
+        "exists": true
+      },
+      "team": {
+        "established": true
+      },
+      "rbi_reporting": {
+        "within_2_hours": true
+      },
+      "testing": {
+        "last_days": 60
+      },
+      "forensics": {
+        "capability": true,
+        "tools": [
+          "EnCase",
+          "FTK",
+          "Volatility"
+        ]
+      },
+      "risk_assessment": {
+        "conducted": true
+      },
+      "security_standards": {
+        "enforced": true
+      },
+      "continuous_monitoring": {
+        "enabled": true
+      },
+      "data_sharing_agreements": {
+        "signed": true
+      },
+      "audit_rights": {
+        "established": true
+      }
+    },
+    {
+      "company_name": "MidTech Solutions",
+      "company_type": "Technology Services",
+      "compliance_status": "Non-Compliant",
+      "compliance_score": 65.3,
+      "evaluation_date": "2025-11-04",
+      "collection_timestamp": "2025-11-04T16:45:33.789100",
+      "system_info": {
+        "os_type": "Windows",
+        "os_version": "10",
+        "hostname": "MIDTECH-SRV-05",
+        "platform": "Windows-10-10.0.19045-SP0",
+        "python_version": "3.10.8"
+      },
+      "software_inventory": {
+        "maintained": true,
+        "last_updated": "2025-10-28",
+        "count": 143
+      },
+      "unauthorized_software": {
+        "detected": false
+      },
+      "sam_tools": {
+        "deployed": true,
+        "tool_name": "ManageEngine AssetExplorer"
+      },
+      "hardware_inventory": {
+        "maintained": true,
+        "automated": true
+      },
+      "network": {
+        "network": {
+          "unauthorized_devices": {
+            "blocked": true,
+            "nac_solution": "PacketFence"
+          },
+          "devices": {
+            "secure_configuration": false
+          },
+          "services": {
+            "approved_only": true,
+            "whitelist_maintained": true,
+            "whitelist_enforced": false
+          },
+          "perimeter": {
+            "filtering_configured": true,
+            "firewall_vendor": "pfSense"
+          },
+          "port_mapping": {
+            "complete": true
+          },
+          "port_scanning": {
+            "automated": false,
+            "frequency": null
+          },
+          "access_control": {
+            "implemented": true
+          }
+        },
+        "network_security": {
+          "segmentation": {
+            "implemented": true,
+            "vlans_count": 6
+          },
+          "dmz": {
+            "implemented": true
+          },
+          "ids": {
+            "deployed": true,
+            "vendor": "Snort"
+          },
+          "ips": {
+            "deployed": false,
+            "vendor": null
+          },
+          "ddos_protection": {
+            "enabled": false
+          }
+        }
+      },
+      "servers": {
+        "firewall": {
+          "enabled": true,
+          "centrally_managed": true,
+          "policy_enforced": true
+        }
+      },
+      "workstations": {
+        "firewall": {
+          "enabled": true,
+          "centrally_managed": false,
+          "policy_enforced": true
+        }
+      },
+      "antimalware": {
+        "deployed": true,
+        "vendor": "Symantec Endpoint Protection",
+        "centrally_managed": true,
+        "auto_update": {
+          "enabled": true,
+          "last_update": "/Date(1730649600000)/"
+        },
+        "removable_media": {
+          "scanning": true
+        },
+        "logging": {
+          "centralized": false
+        },
+        "real_time_protection": true
+      },
+      "devices": {
+        "autorun": {
+          "disabled": true
+        }
+      },
+      "endpoints": {
+        "host_firewall": {
+          "enabled": true
+        }
+      },
+      "applications": {
+        "firewall": {
+          "deployed": false
+        }
+      },
+      "endpoint_security": {
+        "edr": {
+          "deployed": true,
+          "vendor": "SentinelOne",
+          "features": [
+            "behavioral_detection",
+            "threat_hunting"
+          ]
+        },
+        "encryption": {
+          "enabled": true,
+          "volumes_encrypted": 60,
+          "method": "BitLocker"
+        },
+        "mdm": {
+          "deployed": false,
+          "vendor": null
+        },
+        "usb_controls": {
+          "enabled": true,
+          "method": "Group Policy"
+        },
+        "application_whitelisting": {
+          "enabled": false,
+          "solution": null
+        }
+      },
+      "secure_configuration": {
+        "applied": true,
+        "baseline": "CIS Benchmarks Level 1",
+        "checks": [
+          "hardening",
+          "service_disable"
+        ]
+      },
+      "anti_exploitation": {
+        "enabled": true,
+        "features": [
+          "DEP",
+          "ASLR",
+          "SEHOP"
+        ]
+      },
+      "deployment": {
+        "deployment": {
+          "secure_images": {
+            "maintained": true
+          },
+          "master_images": {
+            "isolated": false,
+            "storage_location": null
+          }
+        },
+        "configuration_management": {
+          "tools": {
+            "deployed": true,
+            "tool": "SCCM"
+          },
+          "monitoring": {
+            "automated": false,
+            "tool": null
+          }
+        }
+      },
+      "vulnerability_management": {
+        "automated_scanning": {
+          "enabled": true,
+          "tool": "OpenVAS"
+        },
+        "authenticated_scanning": {
+          "enabled": true
+        },
+        "assessment_accounts": {
+          "protected": false
+        },
+        "assessment": {
+          "last_days": 45
+        },
+        "penetration_test": {
+          "last_days": 180
+        },
+        "critical_patching": {
+          "within_72_hours": false,
+          "average_days": 7
+        },
+        "scanning_tools": {
+          "deployed": true
+        },
+        "asset_inventory": {
+          "maintained": true
+        }
+      },
+      "patch_management": {
+        "automated_patching": {
+          "enabled": true,
+          "os": true,
+          "applications": false,
+          "last_check": "04 November 2025 08:30:00"
+        },
+        "software_patching": {
+          "enabled": false
+        }
+      },
+      "logging": {
+        "logging": {
+          "central_management": {
+            "enabled": true,
+            "platform": "Graylog"
+          },
+          "audit": {
+            "enabled": true,
+            "categories": [
+              "System Integrity                        Success and Failure",
+              "Other System Events                     Success and Failure",
+              "Logon                                   Success and Failure",
+              "Network Policy Server                   Success and Failure",
+              "Account Logon                           Success and Failure",
+              "Account Management                      Success and Failure"
+            ]
+          },
+          "detailed": {
+            "enabled": true
+          },
+          "storage": {
+            "adequate": true,
+            "retention_days": 180
+          },
+          "analysis": {
+            "central": true
+          },
+          "review": {
+            "regular": true,
+            "frequency": "weekly"
+          }
+        },
+        "siem": {
+          "deployed": true,
+          "vendor": "ELK Stack",
+          "tuning": {
+            "regular": false
+          }
+        },
+        "security_monitoring": {
+          "soc": {
+            "operational": true,
+            "staffing": "8x5"
+          },
+          "siem": {
+            "deployed": true
+          },
+          "log_retention": {
+            "days": 180
+          },
+          "realtime": {
+            "enabled": true
+          },
+          "automated_response": {
+            "enabled": false
+          }
+        }
+      },
+      "browsers": {
+        "supported_only": true,
+        "versions": [
+          "Chrome 129.0.6668.89",
+          "Edge 129.0.2792.52"
+        ],
+        "plugins": {
+          "controlled": false,
+          "whitelist": []
+        }
+      },
+      "email": {
+        "security_policies": {
+          "enforced": true
+        },
+        "file_blocking": {
+          "enabled": true,
+          "blocked_types": [
+            ".exe",
+            ".bat",
+            ".cmd"
+          ]
+        }
+      },
+      "web_proxy": {
+        "url_logging": {
+          "enabled": true,
+          "retention_days": 90
+        }
+      },
+      "dns": {
+        "query_logging": {
+          "enabled": false
+        }
+      },
+      "command_line": {
+        "audit_logging": {
+          "enabled": false
+        }
+      },
+      "application_security": {
+        "sdlc": {
+          "implemented": true
+        },
+        "sast": {
+          "enabled": false
+        },
+        "dast": {
+          "enabled": false
+        },
+        "code_review": {
+          "mandatory": false
+        },
+        "waf": {
+          "deployed": true,
+          "vendor": "ModSecurity"
+        }
+      },
+      "backup": {
+        "backup": {
+          "automated": {
+            "enabled": true,
+            "frequency": "daily",
+            "solution": "Acronis Cyber Backup",
+            "last_backup": "2025-11-03T22:00:00"
+          },
+          "complete_system": {
+            "enabled": false
+          },
+          "testing": {
+            "regular": false,
+            "last_test_days": 180
+          },
+          "protection": {
+            "enabled": true,
+            "encryption": true
+          },
+          "offline": {
+            "available": false
+          }
+        },
+        "business_continuity": {
+          "plan": {
+            "exists": true
+          },
+          "disaster_recovery": {
+            "plan_exists": false
+          },
+          "testing": {
+            "last_days": 365
+          },
+          "rto": {
+            "defined": false
+          },
+          "rpo": {
+            "defined": true
+          }
+        }
+      },
+      "access_control": {
+        "access_control": {
+          "policy": {
+            "exists": true
+          },
+          "privileged_users": {
+            "privileged_users": true,
+            "customer_access": false
+          },
+          "customer_access": {
+            "privileged_users": true,
+            "customer_access": false
+          },
+          "pam_system": {
+            "deployed": false,
+            "vendor": null
+          },
+          "session_recording": {
+            "enabled": false
+          },
+          "rights_review": {
+            "last_days": 90
+          }
+        },
+        "users": {
+          "registration_process": {
+            "formal": true
+          },
+          "access_provisioning": {
+            "controlled": true
+          },
+          "privileged_access": {
+            "managed": true,
+            "admin_count": 8
+          },
+          "access_review": {
+            "regular": false
+          },
+          "access_removal": {
+            "timely": true
+          },
+          "authentication_responsibilities": {
+            "understood": true
+          }
+        },
+        "authentication": {
+          "secret_management": {
+            "secure": true
+          }
+        },
+        "systems": {
+          "access_restriction": {
+            "implemented": true
+          },
+          "secure_logon": {
+            "implemented": true
+          },
+          "password_management": {
+            "robust": true,
+            "min_length": 10,
+            "complexity": true,
+            "max_age": 90
+          },
+          "privileged_utilities": {
+            "controlled": true
+          }
+        },
+        "development": {
+          "source_code_access": {
+            "controlled": true
+          }
+        }
+      },
+      "cryptography": {
+        "cryptography": {
+          "policy": {
+            "exists": true
+          },
+          "key_management": {
+            "implemented": false,
+            "solution": null
+          },
+          "tls_protocols": [
+            "TLSv1.2"
+          ]
+        },
+        "data_protection": {
+          "customer_data": {
+            "encrypted_at_rest": true,
+            "encrypted_in_transit": true
+          },
+          "database_monitoring": {
+            "enabled": false
+          },
+          "data_masking": {
+            "non_production": false
+          },
+          "retention_policy": {
+            "implemented": true
+          }
+        }
+      },
+      "physical": {
+        "physical": {
+          "security_perimeter": {
+            "defined": true
+          },
+          "entry_controls": {
+            "implemented": true
+          },
+          "environmental_protection": {
+            "implemented": false
+          },
+          "secure_areas": {
+            "procedures": true,
+            "access_controlled": true
+          },
+          "delivery_areas": {
+            "controlled": false
+          }
+        },
+        "equipment": {
+          "siting_protection": {
+            "implemented": true
+          },
+          "utilities": {
+            "protected": false
+          },
+          "cabling": {
+            "protected": true
+          },
+          "maintenance": {
+            "controlled": true
+          },
+          "removal": {
+            "authorized": false
+          },
+          "offsite": {
+            "protected": false
+          },
+          "disposal": {
+            "secure": true
+          },
+          "unattended": {
+            "protected": false
+          }
+        },
+        "workplace": {
+          "clear_desk_screen": {
+            "enforced": false
+          }
+        }
+      },
+      "operations": {
+        "operations": {
+          "procedures": {
+            "documented": true,
+            "location": "Confluence Wiki"
+          },
+          "change_management": {
+            "implemented": true
+          },
+          "capacity_management": {
+            "monitored": false
+          },
+          "environment_separation": {
+            "implemented": true,
+            "environments": [
+              "Development",
+              "Production"
+            ]
+          }
+        },
+        "governance": {
+          "board_approved_policy": {
+            "exists": true
+          },
+          "security_strategy": {
+            "documented": false
+          },
+          "ciso": {
+            "appointed": true
+          },
+          "security_committee": {
+            "established": false
+          }
+        },
+        "policies": {
+          "information_security": {
+            "exists": true,
+            "last_review_days": 270
+          }
+        },
+        "organization": {
+          "roles_responsibilities": {
+            "defined": true
+          },
+          "segregation_of_duties": {
+            "implemented": false
+          },
+          "authority_contacts": {
+            "maintained": true
+          },
+          "special_groups": {
+            "contact": false
+          }
+        },
+        "projects": {
+          "security_integration": {
+            "mandatory": true
+          }
+        },
+        "mobile_devices": {
+          "policy": {
+            "exists": true
+          }
+        },
+        "teleworking": {
+          "policy": {
+            "exists": true
+          }
+        }
+      },
+      "hr": {
+        "hr": {
+          "background_screening": {
+            "mandatory": true
+          },
+          "employment_terms": {
+            "security_clauses": true
+          },
+          "management": {
+            "security_responsibilities": true
+          },
+          "disciplinary_process": {
+            "defined": false
+          },
+          "termination": {
+            "security_procedures": true
+          }
+        },
+        "training": {
+          "security_awareness": {
+            "regular": true
+          },
+          "cybersecurity": {
+            "annual": true
+          },
+          "phishing_simulation": {
+            "regular": false
+          },
+          "awareness_metrics": {
+            "tracked": false
+          },
+          "role_based": {
+            "implemented": false
+          },
+          "culture_assessment": {
+            "conducted": false
+          }
+        }
+      },
+      "assets": {
+        "assets": {
+          "inventory": {
+            "maintained": true
+          },
+          "ownership": {
+            "assigned": true
+          },
+          "acceptable_use": {
+            "policy": true
+          },
+          "return_procedures": {
+            "defined": false
+          }
+        },
+        "information": {
+          "classification": {
+            "implemented": true
+          },
+          "labelling": {
+            "implemented": false
+          },
+          "handling_procedures": {
+            "defined": true
+          }
+        },
+        "media": {
+          "removable": {
+            "management_procedures": true
+          },
+          "disposal": {
+            "secure_procedures": true
+          },
+          "transfer": {
+            "protected": false
+          }
+        }
+      },
+      "plan": {
+        "exists": true
+      },
+      "team": {
+        "established": true
+      },
+      "rbi_reporting": {
+        "within_2_hours": false
+      },
+      "testing": {
+        "last_days": 200
+      },
+      "forensics": {
+        "capability": false,
+        "tools": []
+      },
+      "risk_assessment": {
+        "conducted": true
+      },
+      "security_standards": {
+        "enforced": true
+      },
+      "continuous_monitoring": {
+        "enabled": true
+      },
+      "data_sharing_agreements": {
+        "signed": true
+      },
+      "audit_rights": {
+        "established": false
+      }
+    },
+    {
+      "company_name": "StartupVentures Inc",
+      "company_type": "SaaS Startup",
+      "compliance_status": "Non-Compliant",
+      "compliance_score": 34.7,
+      "evaluation_date": "2025-11-04",
+      "collection_timestamp": "2025-11-04T11:18:42.234567",
+      "system_info": {
+        "os_type": "Windows",
+        "os_version": "10",
+        "hostname": "STARTUP-DEV-12",
+        "platform": "Windows-10-10.0.19044-SP0",
+        "python_version": "3.9.13"
+      },
+      "software_inventory": {
+        "maintained": false,
+        "last_updated": "2025-08-15",
+        "count": 78
+      },
+      "unauthorized_software": {
+        "detected": true
+      },
+      "sam_tools": {
+        "deployed": false,
+        "tool_name": null
+      },
+      "hardware_inventory": {
+        "maintained": false,
+        "automated": false
+      },
+      "network": {
+        "network": {
+          "unauthorized_devices": {
+            "blocked": false,
+            "nac_solution": null
+          },
+          "devices": {
+            "secure_configuration": false
+          },
+          "services": {
+            "approved_only": false,
+            "whitelist_maintained": false,
+            "whitelist_enforced": false
+          },
+          "perimeter": {
+            "filtering_configured": true,
+            "firewall_vendor": "Netgear ProSafe"
+          },
+          "port_mapping": {
+            "complete": false
+          },
+          "port_scanning": {
+            "automated": false,
+            "frequency": null
+          },
+          "access_control": {
+            "implemented": false
+          }
+        },
+        "network_security": {
+          "segmentation": {
+            "implemented": false,
+            "vlans_count": 1
+          },
+          "dmz": {
+            "implemented": false
+          },
+          "ids": {
+            "deployed": false,
+            "vendor": null
+          },
+          "ips": {
+            "deployed": false,
+            "vendor": null
+          },
+          "ddos_protection": {
+            "enabled": false
+          }
+        }
+      },
+      "servers": {
+        "firewall": {
+          "enabled": true,
+          "centrally_managed": false,
+          "policy_enforced": false
+        }
+      },
+      "workstations": {
+        "firewall": {
+          "enabled": true,
+          "centrally_managed": false,
+          "policy_enforced": false
+        }
+      },
+      "antimalware": {
+        "deployed": true,
+        "vendor": "Windows Defender",
+        "centrally_managed": false,
+        "auto_update": {
+          "enabled": true,
+          "last_update": "/Date(1729180800000)/"
+        },
+        "removable_media": {
+          "scanning": false
+        },
+        "logging": {
+          "centralized": false
+        },
+        "real_time_protection": true
+      },
+      "devices": {
+        "autorun": {
+          "disabled": false
+        }
+      },
+      "endpoints": {
+        "host_firewall": {
+          "enabled": true
+        }
+      },
+      "applications": {
+        "firewall": {
+          "deployed": false
+        }
+      },
+      "endpoint_security": {
+        "edr": {
+          "deployed": false,
+          "vendor": null,
+          "features": []
+        },
+        "encryption": {
+          "enabled": false,
+          "volumes_encrypted": 0,
+          "method": null
+        },
+        "mdm": {
+          "deployed": false,
+          "vendor": null
+        },
+        "usb_controls": {
+          "enabled": false,
+          "method": null
+        },
+        "application_whitelisting": {
+          "enabled": false,
+          "solution": null
+        }
+      },
+      "secure_configuration": {
+        "applied": false,
+        "baseline": null,
+        "checks": []
+      },
+      "anti_exploitation": {
+        "enabled": true,
+        "features": [
+          "DEP",
+          "ASLR"
+        ]
+      },
+      "deployment": {
+        "deployment": {
+          "secure_images": {
+            "maintained": false
+          },
+          "master_images": {
+            "isolated": false,
+            "storage_location": null
+          }
+        },
+        "configuration_management": {
+          "tools": {
+            "deployed": false,
+            "tool": null
+          },
+          "monitoring": {
+            "automated": false,
+            "tool": null
+          }
+        }
+      },
+      "vulnerability_management": {
+        "automated_scanning": {
+          "enabled": false,
+          "tool": null
+        },
+        "authenticated_scanning": {
+          "enabled": false
+        },
+        "assessment_accounts": {
+          "protected": false
+        },
+        "assessment": {
+          "last_days": 999
+        },
+        "penetration_test": {
+          "last_days": 999
+        },
+        "critical_patching": {
+          "within_72_hours": false,
+          "average_days": null
+        },
+        "scanning_tools": {
+          "deployed": false
+        },
+        "asset_inventory": {
+          "maintained": false
+        }
+      },
+      "patch_management": {
+        "automated_patching": {
+          "enabled": false,
+          "os": false,
+          "applications": false,
+          "last_check": "04 November 2025 02:15:00"
+        },
+        "software_patching": {
+          "enabled": false
+        }
+      },
+      "logging": {
+        "logging": {
+          "central_management": {
+            "enabled": false,
+            "platform": null
+          },
+          "audit": {
+            "enabled": true,
+            "categories": [
+              "System Integrity                        Success and Failure",
+              "Logon                                   Success and Failure"
+            ]
+          },
+          "detailed": {
+            "enabled": false
+          },
+          "storage": {
+            "adequate": false,
+            "retention_days": 30
+          },
+          "analysis": {
+            "central": false
+          },
+          "review": {
+            "regular": false,
+            "frequency": "monthly"
+          }
+        },
+        "siem": {
+          "deployed": false,
+          "vendor": null,
+          "tuning": {
+            "regular": false
+          }
+        },
+        "security_monitoring": {
+          "soc": {
+            "operational": false,
+            "staffing": null
+          },
+          "siem": {
+            "deployed": false
+          },
+          "log_retention": {
+            "days": 30
+          },
+          "realtime": {
+            "enabled": false
+          },
+          "automated_response": {
+            "enabled": false
+          }
+        }
+      },
+      "browsers": {
+        "supported_only": true,
+        "versions": [
+          "Chrome 127.0.6533.88",
+          "Firefox 115.0"
+        ],
+        "plugins": {
+          "controlled": false,
+          "whitelist": []
+        }
+      },
+      "email": {
+        "security_policies": {
+          "enforced": false
+        },
+        "file_blocking": {
+          "enabled": false,
+          "blocked_types": []
+        }
+      },
+      "web_proxy": {
+        "url_logging": {
+          "enabled": false,
+          "retention_days": 0
+        }
+      },
+      "dns": {
+        "query_logging": {
+          "enabled": false
+        }
+      },
+      "command_line": {
+        "audit_logging": {
+          "enabled": false
+        }
+      },
+      "application_security": {
+        "sdlc": {
+          "implemented": false
+        },
+        "sast": {
+          "enabled": false
+        },
+        "dast": {
+          "enabled": false
+        },
+        "code_review": {
+          "mandatory": false
+        },
+        "waf": {
+          "deployed": false,
+          "vendor": null
+        }
+      },
+      "backup": {
+        "backup": {
+          "automated": {
+            "enabled": true,
+            "frequency": "weekly",
+            "solution": "Windows Backup",
+            "last_backup": "2025-10-28T23:00:00"
+          },
+          "complete_system": {
+            "enabled": false
+          },
+          "testing": {
+            "regular": false,
+            "last_test_days": 999
+          },
+          "protection": {
+            "enabled": false,
+            "encryption": false
+          },
+          "offline": {
+            "available": false
+          }
+        },
+        "business_continuity": {
+          "plan": {
+            "exists": false
+          },
+          "disaster_recovery": {
+            "plan_exists": false
+          },
+          "testing": {
+            "last_days": 999
+          },
+          "rto": {
+            "defined": false
+          },
+          "rpo": {
+            "defined": false
+          }
+        }
+      },
+      "access_control": {
+        "access_control": {
+          "policy": {
+            "exists": false
+          },
+          "privileged_users": {
+            "privileged_users": false,
+            "customer_access": false
+          },
+          "customer_access": {
+            "privileged_users": false,
+            "customer_access": false
+          },
+          "pam_system": {
+            "deployed": false,
+            "vendor": null
+          },
+          "session_recording": {
+            "enabled": false
+          },
+          "rights_review": {
+            "last_days": 999
+          }
+        },
+        "users": {
+          "registration_process": {
+            "formal": false
+          },
+          "access_provisioning": {
+            "controlled": false
+          },
+          "privileged_access": {
+            "managed": false,
+            "admin_count": 12
+          },
+          "access_review": {
+            "regular": false
+          },
+          "access_removal": {
+            "timely": false
+          },
+          "authentication_responsibilities": {
+            "understood": false
+          }
+        },
+        "authentication": {
+          "secret_management": {
+            "secure": false
+          }
+        },
+        "systems": {
+          "access_restriction": {
+            "implemented": false
+          },
+          "secure_logon": {
+            "implemented": true
+          },
+          "password_management": {
+            "robust": false,
+            "min_length": 8,
+            "complexity": false,
+            "max_age": 180
+          },
+          "privileged_utilities": {
+            "controlled": false
+          }
+        },
+        "development": {
+          "source_code_access": {
+            "controlled": false
+          }
+        }
+      },
+      "cryptography": {
+        "cryptography": {
+          "policy": {
+            "exists": false
+          },
+          "key_management": {
+            "implemented": false,
+            "solution": null
+          },
+          "tls_protocols": [
+            "TLSv1.2",
+            "TLSv1.0"
+          ]
+        },
+        "data_protection": {
+          "customer_data": {
+            "encrypted_at_rest": false,
+            "encrypted_in_transit": true
+          },
+          "database_monitoring": {
+            "enabled": false
+          },
+          "data_masking": {
+            "non_production": false
+          },
+          "retention_policy": {
+            "implemented": false
+          }
+        }
+      },
+      "physical": {
+        "physical": {
+          "security_perimeter": {
+            "defined": false
+          },
+          "entry_controls": {
+            "implemented": false
+          },
+          "environmental_protection": {
+            "implemented": false
+          },
+          "secure_areas": {
+            "procedures": false,
+            "access_controlled": false
+          },
+          "delivery_areas": {
+            "controlled": false
+          }
+        },
+        "equipment": {
+          "siting_protection": {
+            "implemented": false
+          },
+          "utilities": {
+            "protected": false
+          },
+          "cabling": {
+            "protected": false
+          },
+          "maintenance": {
+            "controlled": false
+          },
+          "removal": {
+            "authorized": false
+          },
+          "offsite": {
+            "protected": false
+          },
+          "disposal": {
+            "secure": false
+          },
+          "unattended": {
+            "protected": false
+          }
+        },
+        "workplace": {
+          "clear_desk_screen": {
+            "enforced": false
+          }
+        }
+      },
+      "operations": {
+        "operations": {
+          "procedures": {
+            "documented": false,
+            "location": null
+          },
+          "change_management": {
+            "implemented": false
+          },
+          "capacity_management": {
+            "monitored": false
+          },
+          "environment_separation": {
+            "implemented": false,
+            "environments": []
+          }
+        },
+        "governance": {
+          "board_approved_policy": {
+            "exists": false
+          },
+          "security_strategy": {
+            "documented": false
+          },
+          "ciso": {
+            "appointed": false
+          },
+          "security_committee": {
+            "established": false
+          }
+        },
+        "policies": {
+          "information_security": {
+            "exists": false,
+            "last_review_days": 999
+          }
+        },
+        "organization": {
+          "roles_responsibilities": {
+            "defined": false
+          },
+          "segregation_of_duties": {
+            "implemented": false
+          },
+          "authority_contacts": {
+            "maintained": false
+          },
+          "special_groups": {
+            "contact": false
+          }
+        },
+        "projects": {
+          "security_integration": {
+            "mandatory": false
+          }
+        },
+        "mobile_devices": {
+          "policy": {
+            "exists": false
+          }
+        },
+        "teleworking": {
+          "policy": {
+            "exists": false
+          }
+        }
+      },
+      "hr": {
+        "hr": {
+          "background_screening": {
+            "mandatory": false
+          },
+          "employment_terms": {
+            "security_clauses": false
+          },
+          "management": {
+            "security_responsibilities": false
+          },
+          "disciplinary_process": {
+            "defined": false
+          },
+          "termination": {
+            "security_procedures": false
+          }
+        },
+        "training": {
+          "security_awareness": {
+            "regular": false
+          },
+          "cybersecurity": {
+            "annual": false
+          },
+          "phishing_simulation": {
+            "regular": false
+          },
+          "awareness_metrics": {
+            "tracked": false
+          },
+          "role_based": {
+            "implemented": false
+          },
+          "culture_assessment": {
+            "conducted": false
+          }
+        }
+      },
+      "assets": {
+        "assets": {
+          "inventory": {
+            "maintained": false
+          },
+          "ownership": {
+            "assigned": false
+          },
+          "acceptable_use": {
+            "policy": false
+          },
+          "return_procedures": {
+            "defined": false
+          }
+        },
+        "information": {
+          "classification": {
+            "implemented": false
+          },
+          "labelling": {
+            "implemented": false
+          },
+          "handling_procedures": {
+            "defined": false
+          }
+        },
+        "media": {
+          "removable": {
+            "management_procedures": false
+          },
+          "disposal": {
+            "secure_procedures": false
+          },
+          "transfer": {
+            "protected": false
+          }
+        }
+      },
+      "plan": {
+        "exists": false
+      },
+      "team": {
+        "established": false
+      },
+      "rbi_reporting": {
+        "within_2_hours": false
+      },
+      "testing": {
+        "last_days": 999
+      },
+      "forensics": {
+        "capability": false,
+        "tools": []
+      },
+      "risk_assessment": {
+        "conducted": false
+      },
+      "security_standards": {
+        "enforced": false
+      },
+      "continuous_monitoring": {
+        "enabled": false
+      },
+      "data_sharing_agreements": {
+        "signed": false
+      },
+      "audit_rights": {
+        "established": false
+      }
+    }
+  ]
+}

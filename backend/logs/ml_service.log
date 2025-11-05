@@ -1,0 +1,39 @@
+2025-11-05 08:13:36 - ml_service - INFO - train_model:50 - 🚀 Starting ML training with RandomForest algorithm
+2025-11-05 08:13:36 - ml_service - INFO - train_model:51 - 📁 Dataset: data\synthetic\synthetic_json_dataset.json
+2025-11-05 08:15:00 - ml_service - INFO - train_model:50 - 🚀 Starting ML training with RandomForest algorithm
+2025-11-05 08:15:00 - ml_service - INFO - train_model:51 - 📁 Dataset: data\synthetic\synthetic_json_dataset.json
+2025-11-05 08:15:01 - ml_service - INFO - train_model:111 - ✅ Model trained successfully
+2025-11-05 08:15:01 - ml_service - INFO - train_model:112 - 📊 Accuracy: 0.0000
+2025-11-05 08:15:01 - ml_service - INFO - train_model:113 - 💾 Model saved: models\compliance_model_RandomForest.joblib
+2025-11-05 08:15:31 - ml_service - INFO - train_model:50 - 🚀 Starting ML training with RandomForest algorithm
+2025-11-05 08:15:31 - ml_service - INFO - train_model:51 - 📁 Dataset: data\synthetic\synthetic_json_dataset2.json
+2025-11-05 08:15:31 - ml_service - INFO - train_model:111 - ✅ Model trained successfully
+2025-11-05 08:15:31 - ml_service - INFO - train_model:112 - 📊 Accuracy: 0.0000
+2025-11-05 08:15:31 - ml_service - INFO - train_model:113 - 💾 Model saved: models\compliance_model_RandomForest.joblib
+2025-11-05 08:15:40 - ml_service - INFO - train_model:50 - 🚀 Starting ML training with RandomForest algorithm
+2025-11-05 08:15:40 - ml_service - INFO - train_model:51 - 📁 Dataset: data\synthetic\synthetic_json_dataset3.json
+2025-11-05 08:15:41 - ml_service - INFO - train_model:111 - ✅ Model trained successfully
+2025-11-05 08:15:41 - ml_service - INFO - train_model:112 - 📊 Accuracy: 0.0000
+2025-11-05 08:15:41 - ml_service - INFO - train_model:113 - 💾 Model saved: models\compliance_model_RandomForest.joblib
+2025-11-05 08:18:39 - ml_service - INFO - train_model:50 - 🚀 Starting ML training with RandomForest algorithm
+2025-11-05 08:18:39 - ml_service - INFO - train_model:51 - 📁 Dataset: data\synthetic\synthetic_json_dataset3.json
+2025-11-05 08:18:39 - ml_service - INFO - train_model:111 - ✅ Model trained successfully
+2025-11-05 08:18:39 - ml_service - INFO - train_model:112 - 📊 Accuracy: 0.0000
+2025-11-05 08:18:39 - ml_service - INFO - train_model:113 - 💾 Model saved: models\compliance_model_RandomForest.joblib
+2025-11-05 08:19:54 - ml_service - INFO - train_model:50 - 🚀 Starting ML training with RandomForest algorithm
+2025-11-05 08:19:54 - ml_service - INFO - train_model:51 - 📁 Dataset: data\synthetic\synthetic_json_dataset2.json
+2025-11-05 08:19:54 - ml_service - INFO - train_model:111 - ✅ Model trained successfully
+2025-11-05 08:19:54 - ml_service - INFO - train_model:112 - 📊 Accuracy: 0.0000
+2025-11-05 08:19:54 - ml_service - INFO - train_model:113 - 💾 Model saved: models\compliance_model_RandomForest.joblib
+2025-11-05 12:55:08 - ml_service - INFO - train_model:317 - 🚀 Starting ML training with RandomForest algorithm
+2025-11-05 12:55:08 - ml_service - INFO - train_model:318 - 📁 Dataset: data\synthetic\combined_training_dataset.json
+2025-11-05 12:55:08 - ml_service - INFO - train_model:336 - 📊 Loaded 3 training record(s)
+2025-11-05 12:55:08 - ml_service - INFO - train_model:371 - ✓ Feature extraction complete: 42 features
+2025-11-05 12:55:08 - ml_service - INFO - train_model:372 - ✓ Classes: ['Compliant', 'Non-Compliant']
+2025-11-05 12:55:08 - ml_service - INFO - train_model:373 - ✓ Class distribution: {np.str_('Compliant'): np.int64(1), np.str_('Non-Compliant'): np.int64(2)}
+2025-11-05 12:55:08 - ml_service - WARNING - train_model:386 - Limited data, training without test split
+2025-11-05 12:55:08 - ml_service - INFO - train_model:419 - 🎯 Training RandomForest model...
+2025-11-05 12:55:08 - ml_service - INFO - train_model:450 - ✅ Model trained successfully
+2025-11-05 12:55:08 - ml_service - INFO - train_model:451 - 📊 Accuracy: 1.0000
+2025-11-05 12:55:08 - ml_service - INFO - train_model:470 - 💾 Model saved: models\compliance_model_RandomForest.joblib
+2025-11-05 12:55:08 - ml_service - INFO - register_model:73 - ✓ Registered model 20251105_125508

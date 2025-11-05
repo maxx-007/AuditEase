@@ -1,0 +1,200 @@
+2025-11-05 08:13:36 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 08:13:36 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 08:13:36 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 08:13:36 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 08:13:36 - main - INFO - train_pipeline:77 - 
+======================================================================
+2025-11-05 08:13:36 - main - INFO - train_pipeline:78 - 📚 TRAINING PIPELINE
+2025-11-05 08:13:36 - main - INFO - train_pipeline:79 - ======================================================================
+2025-11-05 08:13:36 - main - INFO - train_pipeline:89 - 🔍 Step 1: Validating dataset...
+2025-11-05 08:13:36 - main - INFO - train_pipeline:108 - ✓ Dataset validated successfully
+2025-11-05 08:13:36 - main - INFO - train_pipeline:111 - 🎯 Step 2: Training RandomForest model...
+2025-11-05 08:15:00 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 08:15:00 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 08:15:00 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 08:15:00 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 08:15:00 - main - INFO - train_pipeline:77 - 
+======================================================================
+2025-11-05 08:15:00 - main - INFO - train_pipeline:78 - 📚 TRAINING PIPELINE
+2025-11-05 08:15:00 - main - INFO - train_pipeline:79 - ======================================================================
+2025-11-05 08:15:00 - main - INFO - train_pipeline:89 - 🔍 Step 1: Validating dataset...
+2025-11-05 08:15:00 - main - INFO - train_pipeline:108 - ✓ Dataset validated successfully
+2025-11-05 08:15:00 - main - INFO - train_pipeline:111 - 🎯 Step 2: Training RandomForest model...
+2025-11-05 08:15:01 - main - INFO - train_pipeline:118 - 
+======================================================================
+2025-11-05 08:15:01 - main - INFO - train_pipeline:119 - ✅ TRAINING COMPLETED SUCCESSFULLY
+2025-11-05 08:15:01 - main - INFO - train_pipeline:120 - ======================================================================
+2025-11-05 08:15:01 - main - INFO - train_pipeline:121 - 📊 Model Version: 20251105_081501
+2025-11-05 08:15:01 - main - INFO - train_pipeline:122 - 📈 Accuracy: 0.0000
+2025-11-05 08:15:01 - main - INFO - train_pipeline:123 - 📁 Model Path: models\compliance_model_RandomForest.joblib
+2025-11-05 08:15:01 - main - INFO - train_pipeline:124 - ======================================================================
+2025-11-05 08:15:31 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 08:15:31 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 08:15:31 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 08:15:31 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 08:15:31 - main - INFO - train_pipeline:77 - 
+======================================================================
+2025-11-05 08:15:31 - main - INFO - train_pipeline:78 - 📚 TRAINING PIPELINE
+2025-11-05 08:15:31 - main - INFO - train_pipeline:79 - ======================================================================
+2025-11-05 08:15:31 - main - INFO - train_pipeline:89 - 🔍 Step 1: Validating dataset...
+2025-11-05 08:15:31 - main - WARNING - train_pipeline:103 - ⚠️  Dataset has validation issues. Quality score: 90.0
+2025-11-05 08:15:31 - main - INFO - train_pipeline:111 - 🎯 Step 2: Training RandomForest model...
+2025-11-05 08:15:31 - main - INFO - train_pipeline:118 - 
+======================================================================
+2025-11-05 08:15:31 - main - INFO - train_pipeline:119 - ✅ TRAINING COMPLETED SUCCESSFULLY
+2025-11-05 08:15:31 - main - INFO - train_pipeline:120 - ======================================================================
+2025-11-05 08:15:31 - main - INFO - train_pipeline:121 - 📊 Model Version: 20251105_081531
+2025-11-05 08:15:31 - main - INFO - train_pipeline:122 - 📈 Accuracy: 0.0000
+2025-11-05 08:15:31 - main - INFO - train_pipeline:123 - 📁 Model Path: models\compliance_model_RandomForest.joblib
+2025-11-05 08:15:31 - main - INFO - train_pipeline:124 - ======================================================================
+2025-11-05 08:15:40 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 08:15:40 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 08:15:40 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 08:15:40 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 08:15:40 - main - INFO - train_pipeline:77 - 
+======================================================================
+2025-11-05 08:15:40 - main - INFO - train_pipeline:78 - 📚 TRAINING PIPELINE
+2025-11-05 08:15:40 - main - INFO - train_pipeline:79 - ======================================================================
+2025-11-05 08:15:40 - main - INFO - train_pipeline:89 - 🔍 Step 1: Validating dataset...
+2025-11-05 08:15:40 - main - WARNING - train_pipeline:103 - ⚠️  Dataset has validation issues. Quality score: 90.0
+2025-11-05 08:15:40 - main - INFO - train_pipeline:111 - 🎯 Step 2: Training RandomForest model...
+2025-11-05 08:15:41 - main - INFO - train_pipeline:118 - 
+======================================================================
+2025-11-05 08:15:41 - main - INFO - train_pipeline:119 - ✅ TRAINING COMPLETED SUCCESSFULLY
+2025-11-05 08:15:41 - main - INFO - train_pipeline:120 - ======================================================================
+2025-11-05 08:15:41 - main - INFO - train_pipeline:121 - 📊 Model Version: 20251105_081541
+2025-11-05 08:15:41 - main - INFO - train_pipeline:122 - 📈 Accuracy: 0.0000
+2025-11-05 08:15:41 - main - INFO - train_pipeline:123 - 📁 Model Path: models\compliance_model_RandomForest.joblib
+2025-11-05 08:15:41 - main - INFO - train_pipeline:124 - ======================================================================
+2025-11-05 08:18:39 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 08:18:39 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 08:18:39 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 08:18:39 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 08:18:39 - main - INFO - train_pipeline:77 - 
+======================================================================
+2025-11-05 08:18:39 - main - INFO - train_pipeline:78 - 📚 TRAINING PIPELINE
+2025-11-05 08:18:39 - main - INFO - train_pipeline:79 - ======================================================================
+2025-11-05 08:18:39 - main - INFO - train_pipeline:89 - 🔍 Step 1: Validating dataset...
+2025-11-05 08:18:39 - main - WARNING - train_pipeline:103 - ⚠️  Dataset has validation issues. Quality score: 90.0
+2025-11-05 08:18:39 - main - INFO - train_pipeline:111 - 🎯 Step 2: Training RandomForest model...
+2025-11-05 08:18:39 - main - INFO - train_pipeline:118 - 
+======================================================================
+2025-11-05 08:18:39 - main - INFO - train_pipeline:119 - ✅ TRAINING COMPLETED SUCCESSFULLY
+2025-11-05 08:18:39 - main - INFO - train_pipeline:120 - ======================================================================
+2025-11-05 08:18:39 - main - INFO - train_pipeline:121 - 📊 Model Version: 20251105_081839
+2025-11-05 08:18:39 - main - INFO - train_pipeline:122 - 📈 Accuracy: 0.0000
+2025-11-05 08:18:39 - main - INFO - train_pipeline:123 - 📁 Model Path: models\compliance_model_RandomForest.joblib
+2025-11-05 08:18:39 - main - INFO - train_pipeline:124 - ======================================================================
+2025-11-05 08:19:54 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 08:19:54 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 08:19:54 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 08:19:54 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 08:19:54 - main - INFO - train_pipeline:77 - 
+======================================================================
+2025-11-05 08:19:54 - main - INFO - train_pipeline:78 - 📚 TRAINING PIPELINE
+2025-11-05 08:19:54 - main - INFO - train_pipeline:79 - ======================================================================
+2025-11-05 08:19:54 - main - INFO - train_pipeline:89 - 🔍 Step 1: Validating dataset...
+2025-11-05 08:19:54 - main - WARNING - train_pipeline:103 - ⚠️  Dataset has validation issues. Quality score: 90.0
+2025-11-05 08:19:54 - main - INFO - train_pipeline:111 - 🎯 Step 2: Training RandomForest model...
+2025-11-05 08:19:54 - main - INFO - train_pipeline:118 - 
+======================================================================
+2025-11-05 08:19:54 - main - INFO - train_pipeline:119 - ✅ TRAINING COMPLETED SUCCESSFULLY
+2025-11-05 08:19:54 - main - INFO - train_pipeline:120 - ======================================================================
+2025-11-05 08:19:54 - main - INFO - train_pipeline:121 - 📊 Model Version: 20251105_081954
+2025-11-05 08:19:54 - main - INFO - train_pipeline:122 - 📈 Accuracy: 0.0000
+2025-11-05 08:19:54 - main - INFO - train_pipeline:123 - 📁 Model Path: models\compliance_model_RandomForest.joblib
+2025-11-05 08:19:54 - main - INFO - train_pipeline:124 - ======================================================================
+2025-11-05 12:55:08 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 12:55:08 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 12:55:08 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 12:55:08 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 12:55:08 - main - INFO - train_pipeline:77 - 
+======================================================================
+2025-11-05 12:55:08 - main - INFO - train_pipeline:78 - 📚 TRAINING PIPELINE
+2025-11-05 12:55:08 - main - INFO - train_pipeline:79 - ======================================================================
+2025-11-05 12:55:08 - main - INFO - train_pipeline:89 - 🔍 Step 1: Validating dataset...
+2025-11-05 12:55:08 - main - INFO - train_pipeline:108 - ✓ Dataset validated successfully
+2025-11-05 12:55:08 - main - INFO - train_pipeline:111 - 🎯 Step 2: Training RandomForest model...
+2025-11-05 12:55:08 - main - INFO - train_pipeline:118 - 
+======================================================================
+2025-11-05 12:55:08 - main - INFO - train_pipeline:119 - ✅ TRAINING COMPLETED SUCCESSFULLY
+2025-11-05 12:55:08 - main - INFO - train_pipeline:120 - ======================================================================
+2025-11-05 12:55:08 - main - INFO - train_pipeline:121 - 📊 Model Version: 20251105_125508
+2025-11-05 12:55:08 - main - INFO - train_pipeline:122 - 📈 Accuracy: 1.0000
+2025-11-05 12:55:08 - main - INFO - train_pipeline:123 - 📁 Model Path: models\compliance_model_RandomForest.joblib
+2025-11-05 12:55:08 - main - INFO - train_pipeline:124 - ======================================================================
+2025-11-05 12:55:57 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 12:55:57 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 12:55:57 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 12:55:57 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 12:55:57 - main - INFO - collect_pipeline:149 - 
+======================================================================
+2025-11-05 12:55:57 - main - INFO - collect_pipeline:150 - 📡 DATA COLLECTION PIPELINE
+2025-11-05 12:55:57 - main - INFO - collect_pipeline:151 - ======================================================================
+2025-11-05 12:55:57 - main - ERROR - collect_pipeline:226 - ❌ Collection failed: cannot import name 'ComplianceCollector' from 'core.collector' (C:\Users\krish hadkar\Downloads\compliance_mvp\test\test3\main\core\collector.py)
+Traceback (most recent call last):
+  File "C:\Users\krish hadkar\Downloads\compliance_mvp\test\test3\main\main.py", line 155, in collect_pipeline
+    from core.collector import ComplianceCollector
+ImportError: cannot import name 'ComplianceCollector' from 'core.collector' (C:\Users\krish hadkar\Downloads\compliance_mvp\test\test3\main\core\collector.py)
+2025-11-05 12:58:04 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 12:58:04 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 12:58:04 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 12:58:04 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 12:58:04 - main - INFO - collect_pipeline:149 - 
+======================================================================
+2025-11-05 12:58:04 - main - INFO - collect_pipeline:150 - 📡 DATA COLLECTION PIPELINE
+2025-11-05 12:58:04 - main - INFO - collect_pipeline:151 - ======================================================================
+2025-11-05 12:58:04 - main - INFO - collect_pipeline:194 - 📊 Single collection mode
+2025-11-05 12:59:42 - main - INFO - collect_pipeline:205 - ✓ Data saved: data\collected\snapshot_20251105_125804.json
+2025-11-05 13:04:55 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 13:04:55 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 13:04:55 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 13:04:55 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 13:04:55 - main - INFO - collect_pipeline:149 - 
+======================================================================
+2025-11-05 13:04:55 - main - INFO - collect_pipeline:150 - 📡 DATA COLLECTION PIPELINE
+2025-11-05 13:04:55 - main - INFO - collect_pipeline:151 - ======================================================================
+2025-11-05 13:04:55 - main - INFO - collect_pipeline:194 - 📊 Single collection mode
+2025-11-05 13:06:24 - main - INFO - collect_pipeline:205 - ✓ Data saved: data\collected\snapshot_20251105_130455.json
+2025-11-05 13:17:57 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 13:17:57 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 13:17:57 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 13:17:57 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 13:17:57 - main - INFO - collect_pipeline:149 - 
+======================================================================
+2025-11-05 13:17:57 - main - INFO - collect_pipeline:150 - 📡 DATA COLLECTION PIPELINE
+2025-11-05 13:17:57 - main - INFO - collect_pipeline:151 - ======================================================================
+2025-11-05 13:17:57 - main - INFO - collect_pipeline:194 - 📊 Single collection mode
+2025-11-05 13:19:26 - main - INFO - collect_pipeline:205 - ✓ Data saved: data\collected\snapshot_20251105_131757.json
+2025-11-05 13:21:44 - main - INFO - __init__:37 - ======================================================================
+2025-11-05 13:21:44 - main - INFO - __init__:38 - 🚀 Compliance AI Engine v1.0.0
+2025-11-05 13:21:44 - main - INFO - __init__:39 - ======================================================================
+2025-11-05 13:21:44 - main - INFO - __init__:60 - ✓ System initialized successfully
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:246 - 
+======================================================================
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:247 - 🔒 COMPLIANCE AUDIT PIPELINE
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:248 - ======================================================================
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:258 - 📂 Loading data from: data\collected\snapshot_20251105_131757.json
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:263 - 🔍 Step 1: Validating compliance data...
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:274 - 🤖 Step 2: Running ML inference...
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:277 - ✓ ML Prediction: Non-Compliant (Confidence: 90.0%)
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:286 - 📋 Step 3: Running compliance audit...
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:295 - ✓ Audit completed for 3 frameworks
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:316 - 💾 Results saved: reports\json\audit_Collected System_20251105_132144.json
+2025-11-05 13:21:44 - main - INFO - audit_pipeline:320 - 📄 Step 4: Generating reports...
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:341 - 
+======================================================================
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:342 - 📊 AUDIT SUMMARY
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:343 - ======================================================================
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:346 - 🏢 Company: Collected System
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:351 - 🤖 ML Prediction: Non-Compliant (90.0% confidence)
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:361 - 📈 Overall Compliance: 2.2% (HIGH)
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:367 - 
+📋 Framework Compliance:
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:369 -   ISO27001: 0.0% (0/60 rules passed)
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:369 -   RBI: 3.1% (2/59 rules passed)
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:369 -   CIS: 3.6% (2/53 rules passed)
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:378 - 
+🚨 Critical Issues: 0
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:379 - ⚠️  High Priority Issues: 60
+2025-11-05 13:21:46 - main - INFO - _print_audit_summary:381 - ======================================================================
