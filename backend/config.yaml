@@ -1,0 +1,72 @@
+# Compliance AI - Configuration File
+# ===================================
+
+project:
+  name: "Compliance AI Engine"
+  version: "1.0.0"
+  environment: "production"
+
+paths:
+  data_dir: "data"
+  models_dir: "models"
+  reports_dir: "reports"
+  logs_dir: "logs"
+  config_dir: "config"
+
+ml:
+  train:
+    test_size: 0.2
+    random_state: 42
+    cv_folds: 5
+    algorithms:
+      - "RandomForest"
+      - "GradientBoosting"
+  
+  inference:
+    batch_size: 32
+    confidence_threshold: 0.75
+
+audit:
+  frameworks:
+    - "ISO27001"
+    - "RBI"
+    - "CIS"
+  
+  scoring:
+    weights:
+      critical: 10
+      high: 7
+      medium: 5
+      low: 3
+  
+  thresholds:
+    compliant: 85
+    partial: 60
+    non_compliant: 0
+
+reporting:
+  formats:
+    - "json"
+    - "pdf"
+    - "excel"
+  
+  charts:
+    - "heatmap"
+    - "radar"
+    - "bar"
+    - "trend"
+  
+  retention_days: 90
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  max_bytes: 10485760  # 10MB
+  backup_count: 5
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  cors_origins:
+    - "http://localhost:3000"
+    - "http://localhost:5173"
