@@ -469,7 +469,7 @@ class ComplianceAIOrchestrator:
             app = create_app(self)
             
             logger.info(f"🚀 Server starting at http://{host}:{port}")
-            logger.info("📡 API Documentation: http://{host}:{port}/docs")
+            logger.info(f"📡 API Documentation: http://{host}:{port}/docs")
             logger.info("Press Ctrl+C to stop")
             
             uvicorn.run(app, host=host, port=port)

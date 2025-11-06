@@ -172,7 +172,7 @@ const ComplianceGauge = ({ score }) => {
       // Background arc
       ctx.beginPath();
       ctx.arc(centerX, centerY, radius, 0.75 * Math.PI, 2.25 * Math.PI);
-      ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+      ctx.strokeStyle = 'rgba(0, 0, 0, 0.1)';
       ctx.lineWidth = 15;
       ctx.stroke();
 
@@ -197,13 +197,13 @@ const ComplianceGauge = ({ score }) => {
 
       // Score text
       ctx.font = 'bold 32px Inter, sans-serif';
-      ctx.fillStyle = '#ffffff';
+      ctx.fillStyle = '#1a1a2e'; // Dark color for visibility
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
       ctx.fillText(`${Math.round(progress * 100)}%`, centerX, centerY);
 
       ctx.font = '14px Inter, sans-serif';
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+      ctx.fillStyle = '#4a4a6e'; // Darker gray for visibility
       ctx.fillText('COMPLIANCE', centerX, centerY + 30);
     };
 
@@ -247,9 +247,9 @@ const GlassCard = ({ children, style, hover = true }) => {
       }}
       transition={{ type: 'spring', stiffness: 300, damping: 20 }}
       style={{
-        background: 'rgba(255, 255, 255, 0.05)',
+        background: 'rgba(255, 255, 255, 0.9)',
         backdropFilter: 'blur(10px)',
-        border: '1px solid rgba(255, 255, 255, 0.1)',
+        border: '1px solid rgba(0, 0, 0, 0.1)',
         borderRadius: '16px',
         padding: '24px',
         position: 'relative',
@@ -290,10 +290,10 @@ const KPICard = ({ icon: Icon, label, value, trend, color }) => (
           <Icon size={24} color={color} />
         </div>
         <div>
-          <div style={{ fontSize: '12px', color: 'rgba(255, 255, 255, 0.6)', marginBottom: '4px' }}>
+          <div style={{ fontSize: '12px', color: '#4a4a6e', marginBottom: '4px' }}>
             {label}
           </div>
-          <div style={{ fontSize: '28px', fontWeight: 'bold', color: '#ffffff' }}>
+          <div style={{ fontSize: '28px', fontWeight: 'bold', color: '#1a1a2e' }}>
             {value}
           </div>
         </div>
@@ -352,7 +352,7 @@ const HeroSection = () => {
       </motion.h1>
       <p style={{
         fontSize: '20px',
-        color: 'rgba(255, 255, 255, 0.7)',
+        color: '#2a2a3e',
         marginBottom: '40px'
       }}>
         Your Compliance. Quantified. Simplified.
@@ -405,7 +405,7 @@ const ComplianceTrendChart = () => {
 
   return (
     <GlassCard>
-      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#ffffff', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#1a1a2e', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
         <TrendingUp size={20} color="#00d9ff" />
         Compliance Trend
       </h3>
@@ -417,15 +417,15 @@ const ComplianceTrendChart = () => {
               <stop offset="95%" stopColor="#7b2ff7" stopOpacity={0.1}/>
             </linearGradient>
           </defs>
-          <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
-          <XAxis dataKey="month" stroke="rgba(255,255,255,0.6)" />
-          <YAxis stroke="rgba(255,255,255,0.6)" domain={[0, 100]} />
+          <CartesianGrid strokeDasharray="3 3" stroke="rgba(0,0,0,0.1)" />
+          <XAxis dataKey="month" stroke="rgba(0,0,0,0.6)" />
+          <YAxis stroke="rgba(0,0,0,0.6)" domain={[0, 100]} />
           <Tooltip
             contentStyle={{
-              background: 'rgba(0, 0, 0, 0.8)',
+              background: 'rgba(255, 255, 255, 0.95)',
               border: '1px solid rgba(0, 217, 255, 0.3)',
               borderRadius: '8px',
-              color: '#ffffff'
+              color: '#1a1a2e'
             }}
           />
           <Area
@@ -448,22 +448,22 @@ const FrameworkRadar = () => {
 
   return (
     <GlassCard>
-      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#ffffff', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#1a1a2e', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
         <Shield size={20} color="#7b2ff7" />
         Framework Coverage
       </h3>
       <ResponsiveContainer width="100%" height={300}>
         <RadarChart data={complianceData.categories}>
-          <PolarGrid stroke="rgba(255,255,255,0.2)" />
-          <PolarAngleAxis dataKey="name" stroke="rgba(255,255,255,0.6)" />
-          <PolarRadiusAxis angle={90} domain={[0, 100]} stroke="rgba(255,255,255,0.4)" />
+          <PolarGrid stroke="rgba(0,0,0,0.2)" />
+          <PolarAngleAxis dataKey="name" stroke="rgba(0,0,0,0.6)" />
+          <PolarRadiusAxis angle={90} domain={[0, 100]} stroke="rgba(0,0,0,0.4)" />
           <Radar name="Compliance" dataKey="value" stroke="#00d9ff" fill="#00d9ff" fillOpacity={0.6} />
           <Tooltip
             contentStyle={{
-              background: 'rgba(0, 0, 0, 0.8)',
+              background: 'rgba(255, 255, 255, 0.95)',
               border: '1px solid rgba(0, 217, 255, 0.3)',
               borderRadius: '8px',
-              color: '#ffffff'
+              color: '#1a1a2e'
             }}
           />
         </RadarChart>
@@ -479,7 +479,7 @@ const DistributionChart = () => {
 
   return (
     <GlassCard>
-      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#ffffff', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#1a1a2e', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
         <Database size={20} color="#f107a3" />
         Control Distribution
       </h3>
@@ -501,10 +501,10 @@ const DistributionChart = () => {
           </Pie>
           <Tooltip
             contentStyle={{
-              background: 'rgba(0, 0, 0, 0.8)',
+              background: 'rgba(255, 255, 255, 0.95)',
               border: '1px solid rgba(0, 217, 255, 0.3)',
               borderRadius: '8px',
-              color: '#ffffff'
+              color: '#1a1a2e'
             }}
           />
         </PieChart>
@@ -526,7 +526,7 @@ const CategoryHeatmap = () => {
 
   return (
     <GlassCard>
-      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#ffffff', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#1a1a2e', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
         <Activity size={20} color="#00ff88" />
         Framework Status
       </h3>
@@ -538,14 +538,14 @@ const CategoryHeatmap = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: idx * 0.1 }}
             style={{
-              background: 'rgba(255, 255, 255, 0.03)',
+              background: 'rgba(248, 249, 250, 0.8)',
               borderRadius: '12px',
               padding: '16px',
-              border: '1px solid rgba(255, 255, 255, 0.1)'
+              border: '1px solid rgba(0, 0, 0, 0.1)'
             }}
           >
             <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '12px' }}>
-              <span style={{ color: '#ffffff', fontWeight: '600' }}>{cat.name}</span>
+              <span style={{ color: '#1a1a2e', fontWeight: '600' }}>{cat.name}</span>
               <span style={{ color: getColorByScore(cat.value), fontWeight: 'bold' }}>
                 {cat.value}%
               </span>
@@ -568,7 +568,7 @@ const CategoryHeatmap = () => {
                 }}
               />
             </div>
-            <div style={{ fontSize: '12px', color: 'rgba(255, 255, 255, 0.5)', marginTop: '8px' }}>
+            <div style={{ fontSize: '12px', color: '#4a4a6e', marginTop: '8px' }}>
               {cat.compliant} / {cat.total} controls compliant
             </div>
           </motion.div>
@@ -596,7 +596,7 @@ const RemediationPanel = () => {
 
   return (
     <GlassCard>
-      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#ffffff', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#1a1a2e', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
         <Code size={20} color="#ff9800" />
         Remediation Center
       </h3>
@@ -611,9 +611,9 @@ const RemediationPanel = () => {
             style={{
               padding: '8px 16px',
               borderRadius: '8px',
-              border: selectedSeverity === severity ? '1px solid #00d9ff' : '1px solid rgba(255, 255, 255, 0.2)',
-              background: selectedSeverity === severity ? 'rgba(0, 217, 255, 0.2)' : 'rgba(255, 255, 255, 0.05)',
-              color: '#ffffff',
+              border: selectedSeverity === severity ? '1px solid #00d9ff' : '1px solid rgba(0, 0, 0, 0.2)',
+              background: selectedSeverity === severity ? 'rgba(0, 217, 255, 0.2)' : 'rgba(255, 255, 255, 0.8)',
+              color: '#1a1a2e',
               cursor: 'pointer',
               fontSize: '14px',
               fontWeight: '500'
@@ -632,7 +632,7 @@ const RemediationPanel = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: idx * 0.05 }}
             style={{
-              background: 'rgba(0, 0, 0, 0.3)',
+              background: 'rgba(255, 255, 255, 0.9)',
               borderRadius: '12px',
               padding: '16px',
               border: `1px solid ${severityColors[item.severity]}33`,
@@ -652,16 +652,16 @@ const RemediationPanel = () => {
                 }}>
                   {item.severity}
                 </span>
-                <span style={{ color: 'rgba(255, 255, 255, 0.5)', fontSize: '12px' }}>
+                <span style={{ color: '#4a4a6e', fontSize: '12px' }}>
                   {item.framework}
                 </span>
               </div>
             </div>
-            <div style={{ color: '#ffffff', fontWeight: '600', marginBottom: '12px' }}>
+            <div style={{ color: '#1a1a2e', fontWeight: '600', marginBottom: '12px' }}>
               {item.title}
             </div>
             <div style={{
-              background: 'rgba(0, 0, 0, 0.5)',
+              background: 'rgba(255, 255, 255, 0.95)',
               borderRadius: '8px',
               padding: '12px',
               fontFamily: 'monospace',
@@ -689,7 +689,7 @@ const ReportsSection = () => {
 
   return (
     <GlassCard>
-      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#ffffff', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+      <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#1a1a2e', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
         <FileText size={20} color="#7b2ff7" />
         Generated Reports
       </h3>
@@ -703,19 +703,19 @@ const ReportsSection = () => {
             transition={{ delay: idx * 0.1 }}
             whileHover={{ scale: 1.02 }}
             style={{
-              background: 'rgba(255, 255, 255, 0.03)',
+              background: 'rgba(248, 249, 250, 0.8)',
               borderRadius: '12px',
               padding: '20px',
-              border: '1px solid rgba(255, 255, 255, 0.1)',
+              border: '1px solid rgba(0, 0, 0, 0.1)',
               cursor: 'pointer'
             }}
           >
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '12px' }}>
               <div>
-                <div style={{ color: '#ffffff', fontSize: '18px', fontWeight: '600', marginBottom: '8px' }}>
+                <div style={{ color: '#1a1a2e', fontSize: '18px', fontWeight: '600', marginBottom: '8px' }}>
                   {report.name}
                 </div>
-                <div style={{ fontSize: '13px', color: 'rgba(255, 255, 255, 0.5)' }}>
+                <div style={{ fontSize: '13px', color: '#4a4a6e' }}>
                   {report.date} • {report.frameworks.join(', ')}
                 </div>
               </div>
@@ -741,9 +741,9 @@ const ReportsSection = () => {
                   style={{
                     padding: '8px 12px',
                     borderRadius: '8px',
-                    border: '1px solid rgba(255, 255, 255, 0.15)',
-                    background: 'rgba(255, 255, 255, 0.06)',
-                    color: '#ffffff',
+                    border: '1px solid rgba(0, 0, 0, 0.15)',
+                    background: 'rgba(255, 255, 255, 0.8)',
+                    color: '#1a1a2e',
                     cursor: 'pointer',
                     fontSize: '12px',
                     textTransform: 'uppercase',

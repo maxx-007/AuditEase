@@ -41,3 +41,6 @@
 2025-11-05 13:21:44 - audit_service - INFO - audit_compliance:232 -     ✓ RBI: 3.1% (2/59 passed)
 2025-11-05 13:21:44 - audit_service - INFO - audit_compliance:215 -   📋 Auditing CIS...
 2025-11-05 13:21:44 - audit_service - INFO - audit_compliance:232 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-06 14:05:28 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 53 rules for CIS
+2025-11-06 14:05:28 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 60 rules for ISO27001
+2025-11-06 14:05:28 - audit_service - INFO - _load_frameworks:176 - ✓ Loaded 59 rules for RBI
