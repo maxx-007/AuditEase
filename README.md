@@ -4,19 +4,12 @@ Enterprise Compliance Automation System
 ## 🚀 Quick Start
 
 **Windows:**
-1. Backend: `cd backend && setup_env.bat && run_server.bat`
+1. Backend: `cd backend &&  python main.py serve --port 8000`
 2. Frontend: `cd frontend && npm install && npm run dev`
 
 **Linux/Mac:**
-1. Backend: `cd backend && ./setup_env.sh && ./run_server.sh`
+1. Backend: `cd backend && python main.py serve --port 8000`
 2. Frontend: `cd frontend && npm install && npm run dev`
-
-See [QUICKSTART.md](./QUICKSTART.md) for detailed instructions.
-
-## 📚 Documentation
-
-- [SETUP.md](./SETUP.md) - Detailed setup and configuration guide
-- [QUICKSTART.md](./QUICKSTART.md) - Quick start guide
 
 ## 🏗️ Architecture
 
