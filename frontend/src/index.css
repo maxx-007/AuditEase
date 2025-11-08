@@ -104,3 +104,115 @@ button:focus-visible {
   50% { transform: translateY(-6px); }
   to { transform: translateY(0px); }
 }
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Luxury Gold Theme Animations */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.3), 0 0 40px rgba(251, 191, 36, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(251, 191, 36, 0.5), 0 0 60px rgba(251, 191, 36, 0.2);
+  }
+}
+
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Luxury gradient backgrounds */
+.luxury-gradient {
+  background: linear-gradient(
+    135deg,
+    #fdfbf7 0%,
+    #fff9e6 25%,
+    #fffbf0 50%,
+    #fff9e6 75%,
+    #fdfbf7 100%
+  );
+}
+
+.gold-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(251, 191, 36, 0) 0%,
+    rgba(251, 191, 36, 0.3) 50%,
+    rgba(251, 191, 36, 0) 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 3s infinite linear;
+}
+
+/* Scrollbar luxury styling */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #fef3c7, #fde68a);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #f59e0b, #d97706);
+  border-radius: 10px;
+  border: 2px solid #fef3c7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #d97706, #b45309);
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(251, 191, 36, 0.3);
+  color: #78350f;
+}
+
+/* Spin animation for loaders */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
