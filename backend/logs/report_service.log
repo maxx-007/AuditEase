@@ -6,3 +6,10 @@
 2025-11-05 13:21:45 - report_service - INFO - generate_all_reports:82 - 📈 Generating charts...
 2025-11-05 13:21:46 - report_service - INFO - _generate_charts:434 - ✓ Charts generated: 2
 2025-11-05 13:21:46 - report_service - INFO - generate_all_reports:86 - ✓ All reports generated successfully
+2025-11-08 18:46:18 - report_service - INFO - _generate_pdf_report:376 - ✓ PDF report saved: reports\pdf\report_System_20251108_184618.pdf
+2025-11-08 18:47:18 - report_service - INFO - _generate_pdf_report:376 - ✓ PDF report saved: reports\pdf\report_System_20251108_184718.pdf
+2025-11-08 19:25:19 - report_service - INFO - _generate_pdf_report:376 - ✓ PDF report saved: reports\pdf\report_System_20251108_192519.pdf
+2025-11-08 19:52:12 - report_service - INFO - _generate_pdf_report:376 - ✓ PDF report saved: reports\pdf\report_System_20251108_195212.pdf
+2025-11-08 20:06:12 - report_service - INFO - _generate_excel_report:302 - ✓ Excel report saved: reports\excel\report_System_20251108_200612.xlsx
+2025-11-09 00:10:45 - report_service - INFO - _generate_pdf_report:376 - ✓ PDF report saved: reports\pdf\report_System_20251109_001045.pdf
+2025-11-09 01:34:04 - report_service - INFO - _generate_excel_report:302 - ✓ Excel report saved: reports\excel\report_System_20251109_013404.xlsx

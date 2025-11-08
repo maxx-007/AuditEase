@@ -1,0 +1,253 @@
+2025-11-08 16:41:32 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 16:41:32 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 16:41:32 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 16:41:32 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 16:41:32 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 16:41:32 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 16:41:32 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 16:41:32 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 16:41:32 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 16:41:32 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 16:41:32 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 16:57:36 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 16:57:36 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 16:57:36 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 16:57:36 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 16:57:36 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 16:57:36 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 16:57:36 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 16:57:36 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 16:57:36 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 16:57:36 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 16:57:36 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 17:12:20 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 17:12:20 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 17:12:20 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 17:12:20 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 17:12:20 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 17:12:20 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 17:12:20 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 17:12:20 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 17:12:20 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 17:12:20 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 17:12:20 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 17:16:13 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 17:16:13 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 17:16:13 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 17:16:13 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 17:16:13 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 17:16:13 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 17:16:13 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 17:16:13 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 17:16:13 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 17:16:13 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 17:16:13 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 18:13:38 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 18:13:38 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 18:13:38 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 18:13:38 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 18:13:38 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 18:13:38 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 18:13:38 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 18:13:38 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 18:13:38 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 18:13:38 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 18:13:38 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 18:16:07 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 18:16:07 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 18:16:07 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 18:16:07 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 18:16:07 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 18:16:07 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 18:16:07 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 18:16:07 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 18:16:07 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 18:16:07 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 18:16:07 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 18:46:03 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 18:46:03 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 18:46:03 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 18:46:03 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 18:46:03 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 18:46:03 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 18:46:03 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 18:46:03 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 18:46:03 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 18:46:03 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 18:46:03 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 19:24:30 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 19:24:30 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 19:24:30 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 19:24:30 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 19:24:30 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 19:24:30 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 19:24:30 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 19:24:30 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 19:24:30 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 19:24:30 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 19:24:30 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 19:51:13 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 19:51:13 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 19:51:13 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 19:51:13 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 19:51:13 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 19:51:13 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 19:51:13 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 19:51:13 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 19:51:13 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 19:51:13 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 19:51:13 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 20:03:40 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 20:03:40 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 20:03:40 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 20:03:40 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 20:03:40 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 20:03:40 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 20:03:40 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 20:03:40 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 20:03:40 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 20:03:40 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 20:03:40 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 22:43:46 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 22:43:46 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 22:43:46 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 22:43:46 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 22:43:46 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 22:43:46 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 22:43:46 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 22:43:46 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 22:43:46 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 22:43:46 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 22:43:46 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 22:54:12 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 22:54:12 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 22:54:12 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 22:54:12 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 22:54:12 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 22:54:12 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 22:54:12 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 22:54:12 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 22:54:12 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 22:54:12 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 22:54:12 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 23:06:19 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 23:06:19 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 23:06:19 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 23:06:19 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 23:06:19 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 23:06:19 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 23:06:19 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 23:06:19 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 23:06:19 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 23:06:19 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 23:06:19 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 23:18:24 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 23:18:24 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 23:18:24 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 23:18:24 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 23:18:24 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 23:18:24 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 23:18:24 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 23:18:24 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 23:18:24 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 23:18:24 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 23:18:24 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 23:37:24 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 23:37:24 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 23:37:24 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 23:37:24 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 23:37:24 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 23:37:24 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 23:37:24 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 23:37:24 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 23:37:24 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 23:37:24 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 23:37:24 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-08 23:59:39 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-08 23:59:39 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-08 23:59:39 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-08 23:59:39 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-08 23:59:39 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-08 23:59:39 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-08 23:59:39 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-08 23:59:39 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-08 23:59:39 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-08 23:59:39 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-08 23:59:39 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-09 00:56:18 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-09 00:56:18 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-09 00:56:18 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-09 00:56:18 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-09 00:56:18 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-09 00:56:18 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-09 00:56:18 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-09 00:56:18 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-09 00:56:18 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-09 00:56:18 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-09 00:56:18 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-09 01:03:58 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-09 01:03:58 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-09 01:03:58 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-09 01:03:58 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-09 01:03:58 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-09 01:03:58 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-09 01:03:58 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-09 01:03:58 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-09 01:03:58 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-09 01:03:58 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-09 01:03:58 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-09 01:32:03 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-09 01:32:03 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-09 01:32:03 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-09 01:32:03 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-09 01:32:03 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-09 01:32:03 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-09 01:32:03 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-09 01:32:03 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-09 01:32:03 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-09 01:32:03 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-09 01:32:03 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-09 01:47:12 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-09 01:47:12 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-09 01:47:12 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-09 01:47:12 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-09 01:47:12 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-09 01:47:12 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-09 01:47:12 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-09 01:47:12 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-09 01:47:12 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-09 01:47:12 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-09 01:47:12 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-09 02:20:17 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-09 02:20:17 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-09 02:20:17 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-09 02:20:17 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-09 02:20:17 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-09 02:20:17 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-09 02:20:17 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-09 02:20:17 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-09 02:20:17 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-09 02:20:17 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-09 02:20:17 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-09 02:31:34 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-09 02:31:34 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-09 02:31:34 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-09 02:31:34 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-09 02:31:34 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-09 02:31:34 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-09 02:31:34 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-09 02:31:34 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-09 02:31:34 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-09 02:31:34 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-09 02:31:34 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System
+2025-11-09 03:14:05 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 53 rules for CIS
+2025-11-09 03:14:05 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 60 rules for ISO27001
+2025-11-09 03:14:05 - auditor - INFO - _load_frameworks:336 - ✓ Loaded 59 rules for RBI
+2025-11-09 03:14:05 - auditor - INFO - audit_all_frameworks:402 - 🔍 Starting comprehensive audit for Collected System
+2025-11-09 03:14:05 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing CIS...
+2025-11-09 03:14:05 - auditor - INFO - audit_all_frameworks:426 -     ✓ CIS: 3.6% (2/53 passed)
+2025-11-09 03:14:05 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing ISO27001...
+2025-11-09 03:14:05 - auditor - INFO - audit_all_frameworks:426 -     ✓ ISO27001: 0.0% (0/60 passed)
+2025-11-09 03:14:05 - auditor - INFO - audit_all_frameworks:416 -   📋 Auditing RBI...
+2025-11-09 03:14:05 - auditor - INFO - audit_all_frameworks:426 -     ✓ RBI: 3.1% (2/59 passed)
+2025-11-09 03:14:05 - auditor - INFO - audit_all_frameworks:437 - ✅ Audit complete for Collected System

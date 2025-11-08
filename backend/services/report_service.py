@@ -100,19 +100,21 @@ class ReportService:
         This is the key format your React dashboard will use!
         """
         
-        overall = audit_results["audit_results"].get("overall_compliance", {})
-        frameworks = audit_results["audit_results"].get("frameworks", {})
+        # Support both nested and flat audit result structures
+        audit_data = audit_results.get("audit_results", audit_results)
+        overall = audit_data.get("overall_summary", audit_data.get("overall_compliance", {}))
+        frameworks = audit_data.get("frameworks", {})
         ml_prediction = audit_results.get("ml_prediction", {})
         
         # Dashboard Summary
         dashboard_summary = {
             "company": {
-                "name": audit_results.get("company_name", "Unknown"),
-                "type": audit_results.get("audit_results", {}).get("company_type", "Unknown")
+                "name": audit_results.get("company_name", audit_data.get("company_name", "Unknown")),
+                "type": audit_data.get("company_type", "Unknown")
             },
-            "assessment_date": overall.get("assessment_date", datetime.now().isoformat()),
-            "overall_score": overall.get("compliance_percentage", 0),
-            "risk_level": overall.get("risk_level", "UNKNOWN"),
+            "assessment_date": overall.get("assessment_date", audit_data.get("audit_date", datetime.now().isoformat())),
+            "overall_score": overall.get("average_compliance_percentage", overall.get("compliance_percentage", 0)),
+            "risk_level": overall.get("overall_risk_level", overall.get("risk_level", "UNKNOWN")),
             "ml_prediction": {
                 "status": ml_prediction.get("prediction", "Unknown"),
                 "confidence": ml_prediction.get("confidence", 0),
@@ -123,24 +125,27 @@ class ReportService:
         # Framework Scores (for radar/bar charts)
         framework_scores = []
         for fw_name, fw_data in frameworks.items():
+            overall_data = fw_data.get("overall", fw_data)  # Support both nested and flat structure
             framework_scores.append({
                 "name": fw_name,
-                "score": fw_data["compliance_percentage"],
-                "passed": fw_data["passed_rules"],
-                "total": fw_data["total_rules"],
-                "risk_level": fw_data["risk_level"]
+                "score": overall_data.get("compliance_percentage", 0),
+                "passed": overall_data.get("passed_rules", 0),
+                "total": overall_data.get("total_rules", 0),
+                "risk_level": overall_data.get("risk_level", "UNKNOWN")
             })
         
         # Category Breakdown (for heatmap/grouped bars)
         category_breakdown = []
         for fw_name, fw_data in frameworks.items():
-            for category, stats in fw_data.get("category_breakdown", {}).items():
+            # Get category breakdown from either 'category_scores' or 'category_breakdown'
+            categories = fw_data.get("category_scores", fw_data.get("category_breakdown", {}))
+            for category, stats in categories.items():
                 category_breakdown.append({
                     "framework": fw_name,
                     "category": category,
-                    "compliance_pct": stats["compliance_pct"],
-                    "passed": stats["passed"],
-                    "total": stats["total"]
+                    "compliance_pct": stats.get("compliance_percentage", stats.get("compliance_pct", 0)),
+                    "passed": stats.get("passed_rules", stats.get("passed", 0)),
+                    "total": stats.get("total_rules", stats.get("total", 0))
                 })
         
         # Severity Distribution (for pie chart)
@@ -156,41 +161,43 @@ class ReportService:
         
         # Priority Issues (for table/list display)
         priority_issues = []
-        for gap in overall.get("top_priority_gaps", []):
+        top_gaps = overall.get("top_priority_gaps", overall.get("critical_gaps", []))
+        for gap in top_gaps:
             priority_issues.append({
                 "id": gap.get("rule_id", ""),
                 "title": gap.get("description", ""),
                 "category": gap.get("category", ""),
                 "severity": gap.get("severity", ""),
-                "current_status": gap.get("actual", ""),
-                "required_status": gap.get("expected", ""),
+                "current_status": gap.get("actual_value", gap.get("actual", "")),
+                "required_status": gap.get("expected_value", gap.get("expected", "")),
                 "remediation": gap.get("remediation", ""),
                 "priority": "P0" if gap.get("severity") == "CRITICAL" else "P1"
             })
         
         # Compliance Trend (if historical data available - placeholder for now)
+        current_score = overall.get("average_compliance_percentage", overall.get("compliance_percentage", 0))
         compliance_trend = [
             {
                 "date": (datetime.now().replace(day=1)).isoformat()[:10],
-                "score": max(0, overall.get("compliance_percentage", 0) - 15)
+                "score": max(0, current_score - 15)
             },
             {
                 "date": (datetime.now().replace(day=15)).isoformat()[:10],
-                "score": max(0, overall.get("compliance_percentage", 0) - 8)
+                "score": max(0, current_score - 8)
             },
             {
                 "date": datetime.now().isoformat()[:10],
-                "score": overall.get("compliance_percentage", 0)
+                "score": current_score
             }
         ]
         
         # Key Metrics (for stat cards)
         key_metrics = {
-            "total_rules_checked": sum(fw["total_rules"] for fw in frameworks.values()),
-            "rules_passed": sum(fw["passed_rules"] for fw in frameworks.values()),
-            "rules_failed": sum(fw["failed_rules"] for fw in frameworks.values()),
-            "critical_issues": overall.get("total_critical_issues", 0),
-            "high_issues": overall.get("total_high_issues", 0),
+            "total_rules_checked": sum(fw.get("overall", fw).get("total_rules", 0) for fw in frameworks.values()),
+            "rules_passed": sum(fw.get("overall", fw).get("passed_rules", 0) for fw in frameworks.values()),
+            "rules_failed": sum(fw.get("overall", fw).get("failed_rules", 0) for fw in frameworks.values()),
+            "critical_issues": overall.get("total_critical_issues", severity_totals.get("CRITICAL", 0)),
+            "high_issues": overall.get("total_high_issues", severity_totals.get("HIGH", 0)),
             "frameworks_assessed": len(frameworks)
         }
         
